@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+/* Change the width and color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Change the color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #3D062A; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+}
+
+/* Change the color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #FFF8F8; /* Color of the scrollbar track */
+}
+
+.green-bar{
+  width: 50%;
+  height: 5px;
+  background-color: #338A29;
+  border-radius: 3px;
+}
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3D062A
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .padding{
+    @apply p-8 max-lg:p-6 max-md:p-4 max-sm:p-2;
+  }
+  .padding-x{
+    @apply px-8 max-lg:px-6 max-md:px-4 max-sm:px-2;
+  }
+  .padding-r{
+    @apply pr-4 max-lg:pr-3 max-md:pr-2 max-sm:pr-1;
+  }
+  .padding-l{
+    @apply pl-4 max-lg:pl-3 max-md:pl-2 max-sm:pl-1;
+  }
+  .padding-y{
+    @apply py-8 lg:py-6 md:py-4 sm:py-2;
+  }
+  .padding-t{
+    @apply pt-4 max-lg:pt-3 max-md:pt-2 max-sm:pt-1;
+  }
+  .padding-b{
+    @apply pb-4 max-lg:pb-3 max-md:pb-2 max-sm:pb-1;
+  }
+  .margin{
+    @apply m-8 max-lg:m-6 max-md:m-4 max-sm:m-2;
+  }
+  .margin-lg{
+    @apply m-12 max-lg:m-6 max-md:m-4 max-sm:m-2;
+  }
+  .margin-x{
+    @apply mx-8 max-lg:mx-6 max-md:mx-4 max-sm:mx-2;
+  }
+  .margin-x-lg{
+    @apply mx-12 max-lg:mx-6 max-md:mx-4 max-sm:mx-2;
+  }
+  .margin-t{
+    @apply mt-4 max-lg:mt-3 max-md:mt-2 max-sm:mt-1;
+  }
+  .margin-t-xl{
+    @apply mt-12 max-lg:mt-6 max-md:mt-4 max-sm:mt-2;
+  }
+  .margin-b{
+    @apply mb-4 max-lg:mb-3 max-md:mb-2 max-sm:mb-1;
+  }
+  .margin-b-xl{
+    @apply mb-12 max-lg:mb-6 max-md:mb-4 max-sm:mb-2;
+  }
+  .margin-y{
+    @apply my-8 max-lg:my-6 max-md:my-4 max-sm:my-2;
+  }
+  .margin-y-xl{
+    @apply my-12 max-lg:my-6 max-md:my-4 max-sm:my-2;
+  }
+  .margin-l{
+    @apply ml-4 max-lg:ml-3 max-md:ml-2 max-sm:ml-1;
+  }
+  .margin-l-xl{
+    @apply ml-12 max-lg:ml-6 max-md:ml-4 max-sm:ml-2;
+  }
+  .margin-b{
+    @apply mb-4 max-lg:mb-3 max-md:mb-2 max-sm:mb-1;
+  }
+  .margin-b-xl{
+    @apply mb-12 max-lg:mb-6 max-md:mb-4 max-sm:mb-2;
+  }
+}
